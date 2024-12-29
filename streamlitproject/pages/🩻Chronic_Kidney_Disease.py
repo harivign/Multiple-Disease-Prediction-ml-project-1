@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model = pickle.load(open("/home/ubuntu/Multiple-Disease-Prediction-project-1/kidney_disease (1).pkl", "rb"))
+model = pickle.load(open("kidney_disease (1).pkl", "rb"))
 
 # Map categorical values to numeric representations
 categorical_mapping = {
