@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the ML model
-model = pickle.load(open('/workspaces/Multiple-Disease-Prediction-project-1/indian_liver_patient.pkl', 'rb'))
+model = pickle.load(open('/home/ubuntu/Multiple-Disease-Prediction-project-1/indian_liver_patient.pkl', 'rb'))
 
 def predict_liver_disease(age, gender, total_bilirubin, direct_bilirubin, alkaline_phosphotase,
                           alamine_aminotransferase, aspartate_aminotransferase, total_proteins,
