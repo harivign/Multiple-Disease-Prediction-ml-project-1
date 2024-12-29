@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the model
-model = pickle.load(open('/home/ubuntu/Multiple-Disease-Prediction-project-1/parkinsons.pkl', 'rb'))
+model = pickle.load(open('parkinsons.pkl', 'rb'))
 
 # Prediction Function
 def db_pred(mdvp_fo_hz, mdvp_fhi_hz, mdvp_flo_hz, mdvp_jitter_pct, mdvp_jitter_abs,
